@@ -36,3 +36,14 @@ def feed(pet):
         pet['weight'] = pet['weight'] + 1
     else:
         print('The PyPet is not hungry!')
+        
+# def isHungry(pet):
+#     """ Determines if the pet is hungry and feeds accordingly """
+#     hungryPets = [] # list to keep track of hungry pets
+#     for p in pet:
+#         if p['hungry'] == True: # If the value of hungry is true
+#             hungryPets.append(p) # add that pet to the hungryPets list
+#         else:
+#             print(f"{p} is not hungry. Try again later) # if the pet is not hungry display fancy test
+#     print("Pets have all been fed") 
+#     hungryPets.clear() # clear the list
